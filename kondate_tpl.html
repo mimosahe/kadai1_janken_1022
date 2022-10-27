@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>献立提案</title>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main>
+        <section id="input">
+            <div class="btn_input">
+                <p class="btn_wrapper">献立をつくる</p>
+                <img src="img/食事アイコン.png" alt="献立をつくる" class="btn">
+            </div>
+        </section>
+        
+        <section id="result">
+            <div class="container">
+                <div class="result__item">
+                    <p class="result__item-text">主菜</p>
+                    <img src="img/NoImage.png" width="300" height="200" id="result__thumbnail-mainDish">
+                    <p id="result__title-mainDish" class="result__title-text"></p>
+                </div>
+                <div class="result__item">
+                    <p class="result__item-text">副菜</p>
+                    <img src="img/NoImage.png" width="300" height="200" id="result__thumbnail-sideDish">
+                    <p id="result__title-sideDish" class="result__title-text"></p>
+                </div>
+                <div class="result__item">
+                    <p class="result__item-text">主食</p>
+                    <img src="img/NoImage.png" width="300" height="200" id="result__thumbnail-stapleFood">
+                    <p id="result__title-stapleFood" class="result__title-text"></p>
+                </div>
+                <div class="result__item">
+                    <p class="result__item-text">汁物</p>
+                    <img src="img/NoImage.png" width="300" height="200" id="result__thumbnail-soup">
+                    <p id="result__title-soup" class="result__title-text"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    <!-- 必ずjqueryが先 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/kondate.js"></script>
+</body>
+
+</html>
